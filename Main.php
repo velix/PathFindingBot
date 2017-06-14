@@ -45,5 +45,5 @@ while (!$map_loader->isEndPosition($robot->getCurrentPosition())) {
 
 print('</br>');
 printf('Robot stopped moving.');
-printf('Final position : %s, %s\', $robot->getCurrentPosition()[0], $robot->getCurrentPosition()[1]');
+printf('Final position : %s, %s', $robot->getCurrentPosition()[0], $robot->getCurrentPosition()[1]);
 print('</br>');
